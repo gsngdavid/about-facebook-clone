@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Helvetica, Arial, sans-serif
+    }
+    a {
+        @apply text-anchor
+    }
+
+    .container {
+        @apply px-6 w-full max-w-7xl mx-auto
+    }
+
+    .link-primary {
+        @apply flex items-center gap-2.5 w-fit text-sm font-semibold
+    }
+
+    .footer-icon {
+        @apply w-6 h-6 object-contain
+    }
+
+    .footer-link {
+        @apply text-primary
+    }
+
+    .footer-dropdwon-show {
+        @apply h-fit
+    }
+
+    .footer-dropdwon-hide {
+        @apply h-0
+    }
+
+    .divider {
+        @apply border-b-[1px] border-borderc
+    }
+}
+
+@font-face {
+    font-family: "Optimistic", Helvetica, Arial, sans-serif;
+    src: url("../fonts/jfwoHaS3i0K.woff2") format(".woff2");
+}
